@@ -1,0 +1,37 @@
+VUFORIA
+
+1] License manager: Add new app; Name trump; get dev key copy paste and keep
+2] Target manager: New database; Name trump; device; add image; size 5
+3] Download database
+
+UNITY
+
+1]Change build settings
+2]Switch platform to android
+3]Go to player settings>XR settings>Enable Vuforia other settings>android tv comp uncehck
+
+5]Remove Main camera
+6]Add AR Camera
+7]Open vuforia config>Add license key
+8]Add Image target(gameobject>Vuforia>image)
+9]See if the note appears
+10]Put a cube as the child of the image-target
+11]Run the app and see if it appears
+Drag and drop low poly Trump  into assets
+13]Add trump idle(lowpoly trump>anims>idle(2nd model))
+
+14]Add standard assets on unity
+goto standard assets>prefabs>mobilecontroller
+Drag and drop in herirachy
+remove jump part
+
+15]go to assets>lowpolytrump>anims>idle
+16]idle select go to rig>animation tab to legacy>animation name idle>loop
+17]Same for walk animation
+
+18]Select trumpmodel>add component>rigidbody>uncheck use gravity
+19]add component>new script
+
+
+20]Build settings>player settings>other settings>package name change>change product name>add icon
+21]run(required jdk and ask)
